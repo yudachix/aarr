@@ -1,0 +1,17 @@
+[package]
+name = "aarr"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+image = "0.24.7"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
+
+[dependencies]
+crossterm = "0.27.0"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
